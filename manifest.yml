@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: workplace-botapp
+  host: workplace-botapp
+  disk_quota: 1024M
+  services:
+  - Conversation-bk
+  - Workplace_CloudantDb
+

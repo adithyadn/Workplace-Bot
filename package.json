@@ -1,0 +1,31 @@
+{
+  "name": "cloudant_boilerplate_nodejs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.13.x",
+		"cfenv": "1.0.x",
+		"botkit": "^0.4.0",
+		"request": "2.76.0",
+    "ejs": "2.4.x",
+    "cloudant": "^1.4.x",
+    "body-parser": "1.14.x",
+    "method-override": "2.3.x",
+    "morgan": "^1.6.x",
+    "errorhandler": "^1.4.x",
+    "connect-multiparty": "^2.0.x",
+    "moment": "^2.14.1",
+    "cloudant": "^1.4.3",
+    "cron": "^1.1.0",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.14.0",
+    "node-fetch": "^1.6.3"
+  },
+  "repository": {},
+  "engines": {
+  	"node": "4.x"
+  }
+}

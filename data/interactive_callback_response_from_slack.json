@@ -1,0 +1,78 @@
+{
+  "payload": {
+    "actions": [
+      {
+        "name": "name",
+        "value": "name"
+      }
+    ],
+    "callback_id": "update_profile",
+    "team": {
+      "id": "T2VPXJ48M",
+      "domain": "paul-anne"
+    },
+    "channel": {
+      "id": "D3527RBGV",
+      "name": "directmessage"
+    },
+    "user": {
+      "id": "U2VQ21FF1",
+      "name": "pauldeepakraj.r"
+    },
+    "action_ts": "1479667701.567034",
+    "message_ts": "1479667694.000044",
+    "attachment_id": "1",
+    "token": "vLBWzecNAmRFHBYSDGJwoE3c",
+    "original_message": {
+      "type": "message",
+      "user": "U348AQA72",
+      "text": "",
+      "bot_id": "B3497HLLR",
+      "attachments": [
+        {
+          "callback_id": "update_profile",
+          "fallback": "User Profile Summary.",
+          "pretext": "Ok. Which one you would like to change now? ",
+          "id": 1,
+          "ts": 1479518216,
+          "actions": [
+            {
+              "id": "1",
+              "name": "name",
+              "text": "Your name is Paul",
+              "type": "button",
+              "value": "name",
+              "style": "primary"
+            },
+            {
+              "id": "2",
+              "name": "role",
+              "text": "Your role is Ceo",
+              "type": "button",
+              "value": "role",
+              "style": "primary"
+            },
+            {
+              "id": "3",
+              "name": "department",
+              "text": "Your department is IBM",
+              "type": "button",
+              "value": "department",
+              "style": "primary"
+            },
+            {
+              "id": "4",
+              "name": "manger",
+              "text": "Your manager is Mj I'm",
+              "type": "button",
+              "value": "manager",
+              "style": "primary"
+            }
+          ]
+        }
+      ],
+      "ts": "1479667694.000044"
+    },
+    "response_url": "https:\\/\\/hooks.slack.com\\/actions\\/T2VPXJ48M\\/106942356723\\/uhVY2ctvFPxKAl7MoIU9h4ee"
+  }
+}
